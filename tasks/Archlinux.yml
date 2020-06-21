@@ -29,16 +29,16 @@
       - dunst
       - rofi
 
-- name: Install Openbox and tools
-  pacman:
-    name: "{{ packages }}"
-    state: present
-  vars:
-    packages:
-      - openbox
-      - openbox-themes
-      - obconf
-      - obmenu
+# - name: Install Openbox and tools
+#   pacman:
+#     name: "{{ packages }}"
+#     state: present
+#   vars:
+#     packages:
+#       - openbox
+#       - openbox-themes
+#       - obconf
+#       - obmenu
 
 - name: Install windows managers tools
   pacman:

@@ -23,13 +23,13 @@
       - i3lock
       - dmenu
 
-- name: Install Openbox and tools
-  yum:
-    name: "{{ packages }}"
-    state: present
-  vars:
-    packages:
-      - openbox
+# - name: Install Openbox and tools
+#   yum:
+#     name: "{{ packages }}"
+#     state: present
+#   vars:
+#     packages:
+#       - openbox
 
 - name: Install windows managers tools
   yum:

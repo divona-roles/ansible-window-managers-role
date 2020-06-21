@@ -21,16 +21,16 @@
       - i3
       - i3lock
 
-- name: Install Openbox and tools
-  pkgin:
-    pkg: "{{ packages }}"
-    state: present
-  vars:
-    packages:
-      - openbox
-      - obconf
-      # - obmenu
-      - tint2
+# - name: Install Openbox and tools
+#   pkgin:
+#     pkg: "{{ packages }}"
+#     state: present
+#   vars:
+#     packages:
+#       - openbox
+#       - obconf
+#       # - obmenu
+#       - tint2
 
 - name: Install windows managers tools
   pkgin:

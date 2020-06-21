@@ -22,16 +22,16 @@
       - i3lock
       - i3status
 
-- name: Install Openbox and tools
-  openbsd_pkg:
-    name: "{{ packages }}"
-    state: present
-  vars:
-    packages:
-      - openbox
-      # - openbox-themes
-      - obconf
-      - obmenu
+# - name: Install Openbox and tools
+#   openbsd_pkg:
+#     name: "{{ packages }}"
+#     state: present
+#   vars:
+#     packages:
+#       - openbox
+#       # - openbox-themes
+#       - obconf
+#       - obmenu
 
 - name: Install windows managers tools
   openbsd_pkg:

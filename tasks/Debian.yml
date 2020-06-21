@@ -27,15 +27,15 @@
       - dmenu
       - rofi
 
-- name: Install Openbox and tools
-  apt:
-    pkg: "{{ packages }}"
-    state: present
-  vars:
-    packages:
-      - openbox
-      - obconf
-      - obmenu
+# - name: Install Openbox and tools
+#   apt:
+#     pkg: "{{ packages }}"
+#     state: present
+#   vars:
+#     packages:
+#       - openbox
+#       - obconf
+#       - obmenu
 
 - name: Install windows managers tools
   apt:

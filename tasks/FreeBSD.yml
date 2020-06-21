@@ -22,15 +22,15 @@
       - i3lock
       - i3status
 
-- name: Install Openbox and tools
-  pkgng:
-    pkg: "{{ packages }}"
-    state: present
-  vars:
-    packages:
-      - openbox
-      - obconf
-      - obmenu
+# - name: Install Openbox and tools
+#   pkgng:
+#     pkg: "{{ packages }}"
+#     state: present
+#   vars:
+#     packages:
+#       - openbox
+#       - obconf
+#       - obmenu
 
 - name: Install windows managers tools
   pkgng:
